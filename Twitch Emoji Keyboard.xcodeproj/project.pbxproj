@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822941A91C416F51000EE91C /* betterTwitchTv in Resources */ = {isa = PBXBuildFile; fileRef = 822941A81C416F51000EE91C /* betterTwitchTv */; };
+		822941AB1C416FE3000EE91C /* forsen in Resources */ = {isa = PBXBuildFile; fileRef = 822941AA1C416FE3000EE91C /* forsen */; };
+		822941AD1C416FE6000EE91C /* lirik in Resources */ = {isa = PBXBuildFile; fileRef = 822941AC1C416FE6000EE91C /* lirik */; };
+		822941AF1C416FED000EE91C /* rekful in Resources */ = {isa = PBXBuildFile; fileRef = 822941AE1C416FED000EE91C /* rekful */; };
+		822941B11C416FF5000EE91C /* reynad in Resources */ = {isa = PBXBuildFile; fileRef = 822941B01C416FF5000EE91C /* reynad */; };
+		822941B31C416FFA000EE91C /* sodapoppin in Resources */ = {isa = PBXBuildFile; fileRef = 822941B21C416FFA000EE91C /* sodapoppin */; };
+		822941B51C416FFF000EE91C /* summit1g in Resources */ = {isa = PBXBuildFile; fileRef = 822941B41C416FFF000EE91C /* summit1g */; };
+		822941B71C417004000EE91C /* watchmeblink1 in Resources */ = {isa = PBXBuildFile; fileRef = 822941B61C417004000EE91C /* watchmeblink1 */; };
+		8279E0C41C404C8B006EB342 /* faces in Resources */ = {isa = PBXBuildFile; fileRef = 8279E0C31C404C8B006EB342 /* faces */; };
+		8279E0C61C404C92006EB342 /* toon in Resources */ = {isa = PBXBuildFile; fileRef = 8279E0C51C404C92006EB342 /* toon */; };
+		8279E0C81C404C98006EB342 /* turbo in Resources */ = {isa = PBXBuildFile; fileRef = 8279E0C71C404C98006EB342 /* turbo */; };
+		82D413011C3445C8008C6DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D413001C3445C8008C6DB6 /* AppDelegate.swift */; };
+		82D413031C3445C8008C6DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D413021C3445C8008C6DB6 /* ViewController.swift */; };
+		82D413061C3445C8008C6DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D413041C3445C8008C6DB6 /* Main.storyboard */; };
+		82D413081C3445C8008C6DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D413071C3445C8008C6DB6 /* Assets.xcassets */; };
+		82D4130B1C3445C8008C6DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D413091C3445C8008C6DB6 /* LaunchScreen.storyboard */; };
+		82D413161C3445C8008C6DB6 /* testDec30Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D413151C3445C8008C6DB6 /* testDec30Tests.swift */; };
+		82D413271C3445D5008C6DB6 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D413261C3445D5008C6DB6 /* KeyboardViewController.swift */; };
+		82D4132B1C3445D5008C6DB6 /* CustomKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 82D413241C3445D5008C6DB6 /* CustomKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82D413351C349E61008C6DB6 /* appIcons in Resources */ = {isa = PBXBuildFile; fileRef = 82D413341C349E61008C6DB6 /* appIcons */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82D413121C3445C8008C6DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D412F51C3445C8008C6DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D412FC1C3445C8008C6DB6;
+			remoteInfo = testDec30;
+		};
+		82D413291C3445D5008C6DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D412F51C3445C8008C6DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D413231C3445D5008C6DB6;
+			remoteInfo = CustomKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82D4132F1C3445D5008C6DB6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				82D4132B1C3445D5008C6DB6 /* CustomKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		822941A81C416F51000EE91C /* betterTwitchTv */ = {isa = PBXFileReference; lastKnownFileType = folder; path = betterTwitchTv; sourceTree = "<group>"; };
+		822941AA1C416FE3000EE91C /* forsen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = forsen; sourceTree = "<group>"; };
+		822941AC1C416FE6000EE91C /* lirik */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lirik; sourceTree = "<group>"; };
+		822941AE1C416FED000EE91C /* rekful */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rekful; sourceTree = "<group>"; };
+		822941B01C416FF5000EE91C /* reynad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = reynad; sourceTree = "<group>"; };
+		822941B21C416FFA000EE91C /* sodapoppin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sodapoppin; sourceTree = "<group>"; };
+		822941B41C416FFF000EE91C /* summit1g */ = {isa = PBXFileReference; lastKnownFileType = folder; path = summit1g; sourceTree = "<group>"; };
+		822941B61C417004000EE91C /* watchmeblink1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = watchmeblink1; sourceTree = "<group>"; };
+		8279E0C31C404C8B006EB342 /* faces */ = {isa = PBXFileReference; lastKnownFileType = folder; name = faces; path = CustomKeyboard/faces; sourceTree = SOURCE_ROOT; };
+		8279E0C51C404C92006EB342 /* toon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = toon; sourceTree = "<group>"; };
+		8279E0C71C404C98006EB342 /* turbo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = turbo; sourceTree = "<group>"; };
+		82D412FD1C3445C8008C6DB6 /* Twitch Emoji Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitch Emoji Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D413001C3445C8008C6DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82D413021C3445C8008C6DB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82D413051C3445C8008C6DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82D413071C3445C8008C6DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82D4130A1C3445C8008C6DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82D4130C1C3445C8008C6DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D413111C3445C8008C6DB6 /* Twitch Emoji Keyboard.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twitch Emoji Keyboard.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D413151C3445C8008C6DB6 /* testDec30Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testDec30Tests.swift; sourceTree = "<group>"; };
+		82D413171C3445C8008C6DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D413241C3445D5008C6DB6 /* CustomKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D413261C3445D5008C6DB6 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		82D413281C3445D5008C6DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D413341C349E61008C6DB6 /* appIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = appIcons; path = "/Applications/Xcode.app/Contents/Developer/../../../../Users/nicolaslegorrec/Desktop/School/Sophomore2015-2016/FirstSemester/Side Project/testDec30/CustomKeyboard/appIcons"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D412FA1C3445C8008C6DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4130E1C3445C8008C6DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D413211C3445D5008C6DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D412F41C3445C8008C6DB6 = {
+			isa = PBXGroup;
+			children = (
+				82D412FF1C3445C8008C6DB6 /* testDec30 */,
+				82D413141C3445C8008C6DB6 /* testDec30Tests */,
+				82D413251C3445D5008C6DB6 /* CustomKeyboard */,
+				82D412FE1C3445C8008C6DB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D412FE1C3445C8008C6DB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D412FD1C3445C8008C6DB6 /* Twitch Emoji Keyboard.app */,
+				82D413111C3445C8008C6DB6 /* Twitch Emoji Keyboard.xctest */,
+				82D413241C3445D5008C6DB6 /* CustomKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D412FF1C3445C8008C6DB6 /* testDec30 */ = {
+			isa = PBXGroup;
+			children = (
+				82D413001C3445C8008C6DB6 /* AppDelegate.swift */,
+				82D413021C3445C8008C6DB6 /* ViewController.swift */,
+				82D413071C3445C8008C6DB6 /* Assets.xcassets */,
+				82D413041C3445C8008C6DB6 /* Main.storyboard */,
+				82D413091C3445C8008C6DB6 /* LaunchScreen.storyboard */,
+				82D4130C1C3445C8008C6DB6 /* Info.plist */,
+			);
+			path = testDec30;
+			sourceTree = "<group>";
+		};
+		82D413141C3445C8008C6DB6 /* testDec30Tests */ = {
+			isa = PBXGroup;
+			children = (
+				82D413151C3445C8008C6DB6 /* testDec30Tests.swift */,
+				82D413171C3445C8008C6DB6 /* Info.plist */,
+			);
+			path = testDec30Tests;
+			sourceTree = "<group>";
+		};
+		82D413251C3445D5008C6DB6 /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				822941B61C417004000EE91C /* watchmeblink1 */,
+				822941B41C416FFF000EE91C /* summit1g */,
+				822941B21C416FFA000EE91C /* sodapoppin */,
+				822941B01C416FF5000EE91C /* reynad */,
+				822941AE1C416FED000EE91C /* rekful */,
+				822941AC1C416FE6000EE91C /* lirik */,
+				822941AA1C416FE3000EE91C /* forsen */,
+				822941A81C416F51000EE91C /* betterTwitchTv */,
+				8279E0C71C404C98006EB342 /* turbo */,
+				8279E0C51C404C92006EB342 /* toon */,
+				8279E0C31C404C8B006EB342 /* faces */,
+				82D413341C349E61008C6DB6 /* appIcons */,
+				82D413261C3445D5008C6DB6 /* KeyboardViewController.swift */,
+				82D413281C3445D5008C6DB6 /* Info.plist */,
+			);
+			path = CustomKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D412FC1C3445C8008C6DB6 /* Twitch Emoji Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D4131A1C3445C8008C6DB6 /* Build configuration list for PBXNativeTarget "Twitch Emoji Keyboard" */;
+			buildPhases = (
+				82D412F91C3445C8008C6DB6 /* Sources */,
+				82D412FA1C3445C8008C6DB6 /* Frameworks */,
+				82D412FB1C3445C8008C6DB6 /* Resources */,
+				82D4132F1C3445D5008C6DB6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D4132A1C3445D5008C6DB6 /* PBXTargetDependency */,
+			);
+			name = "Twitch Emoji Keyboard";
+			productName = testDec30;
+			productReference = 82D412FD1C3445C8008C6DB6 /* Twitch Emoji Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82D413101C3445C8008C6DB6 /* Twitch Emoji KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D4131D1C3445C8008C6DB6 /* Build configuration list for PBXNativeTarget "Twitch Emoji KeyboardTests" */;
+			buildPhases = (
+				82D4130D1C3445C8008C6DB6 /* Sources */,
+				82D4130E1C3445C8008C6DB6 /* Frameworks */,
+				82D4130F1C3445C8008C6DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D413131C3445C8008C6DB6 /* PBXTargetDependency */,
+			);
+			name = "Twitch Emoji KeyboardTests";
+			productName = testDec30Tests;
+			productReference = 82D413111C3445C8008C6DB6 /* Twitch Emoji Keyboard.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82D413231C3445D5008C6DB6 /* CustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D4132C1C3445D5008C6DB6 /* Build configuration list for PBXNativeTarget "CustomKeyboard" */;
+			buildPhases = (
+				82D413201C3445D5008C6DB6 /* Sources */,
+				82D413211C3445D5008C6DB6 /* Frameworks */,
+				82D413221C3445D5008C6DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKeyboard;
+			productName = CustomKeyboard;
+			productReference = 82D413241C3445D5008C6DB6 /* CustomKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D412F51C3445C8008C6DB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = babs;
+				TargetAttributes = {
+					82D412FC1C3445C8008C6DB6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X5L44P25U7;
+					};
+					82D413101C3445C8008C6DB6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X5L44P25U7;
+						TestTargetID = 82D412FC1C3445C8008C6DB6;
+					};
+					82D413231C3445D5008C6DB6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X5L44P25U7;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 82D412F81C3445C8008C6DB6 /* Build configuration list for PBXProject "Twitch Emoji Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82D412F41C3445C8008C6DB6;
+			productRefGroup = 82D412FE1C3445C8008C6DB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D412FC1C3445C8008C6DB6 /* Twitch Emoji Keyboard */,
+				82D413101C3445C8008C6DB6 /* Twitch Emoji KeyboardTests */,
+				82D413231C3445D5008C6DB6 /* CustomKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D412FB1C3445C8008C6DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D4130B1C3445C8008C6DB6 /* LaunchScreen.storyboard in Resources */,
+				82D413081C3445C8008C6DB6 /* Assets.xcassets in Resources */,
+				82D413061C3445C8008C6DB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4130F1C3445C8008C6DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D413221C3445D5008C6DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822941B51C416FFF000EE91C /* summit1g in Resources */,
+				8279E0C61C404C92006EB342 /* toon in Resources */,
+				822941B31C416FFA000EE91C /* sodapoppin in Resources */,
+				822941B71C417004000EE91C /* watchmeblink1 in Resources */,
+				8279E0C81C404C98006EB342 /* turbo in Resources */,
+				82D413351C349E61008C6DB6 /* appIcons in Resources */,
+				822941A91C416F51000EE91C /* betterTwitchTv in Resources */,
+				8279E0C41C404C8B006EB342 /* faces in Resources */,
+				822941AD1C416FE6000EE91C /* lirik in Resources */,
+				822941B11C416FF5000EE91C /* reynad in Resources */,
+				822941AB1C416FE3000EE91C /* forsen in Resources */,
+				822941AF1C416FED000EE91C /* rekful in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D412F91C3445C8008C6DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D413031C3445C8008C6DB6 /* ViewController.swift in Sources */,
+				82D413011C3445C8008C6DB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4130D1C3445C8008C6DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D413161C3445C8008C6DB6 /* testDec30Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D413201C3445D5008C6DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D413271C3445D5008C6DB6 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82D413131C3445C8008C6DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D412FC1C3445C8008C6DB6 /* Twitch Emoji Keyboard */;
+			targetProxy = 82D413121C3445C8008C6DB6 /* PBXContainerItemProxy */;
+		};
+		82D4132A1C3445D5008C6DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D413231C3445D5008C6DB6 /* CustomKeyboard */;
+			targetProxy = 82D413291C3445D5008C6DB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82D413041C3445C8008C6DB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D413051C3445C8008C6DB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82D413091C3445C8008C6DB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D4130A1C3445C8008C6DB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82D413181C3445C8008C6DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82D413191C3445C8008C6DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D4131B1C3445C8008C6DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = testDec30/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babs.testDec30;
+				PRODUCT_NAME = "Twitch Emoji Keyboard";
+			};
+			name = Debug;
+		};
+		82D4131C1C3445C8008C6DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = testDec30/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babs.testDec30;
+				PRODUCT_NAME = "Twitch Emoji Keyboard";
+			};
+			name = Release;
+		};
+		82D4131E1C3445C8008C6DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testDec30Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babs.testDec30Tests;
+				PRODUCT_NAME = "Twitch Emoji Keyboard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitch Emoji Keyboard.app/Twitch Emoji Keyboard";
+			};
+			name = Debug;
+		};
+		82D4131F1C3445C8008C6DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testDec30Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babs.testDec30Tests;
+				PRODUCT_NAME = "Twitch Emoji Keyboard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitch Emoji Keyboard.app/Twitch Emoji Keyboard";
+			};
+			name = Release;
+		};
+		82D4132D1C3445D5008C6DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babs.testDec30.CustomKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		82D4132E1C3445D5008C6DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babs.testDec30.CustomKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D412F81C3445C8008C6DB6 /* Build configuration list for PBXProject "Twitch Emoji Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D413181C3445C8008C6DB6 /* Debug */,
+				82D413191C3445C8008C6DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D4131A1C3445C8008C6DB6 /* Build configuration list for PBXNativeTarget "Twitch Emoji Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4131B1C3445C8008C6DB6 /* Debug */,
+				82D4131C1C3445C8008C6DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D4131D1C3445C8008C6DB6 /* Build configuration list for PBXNativeTarget "Twitch Emoji KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4131E1C3445C8008C6DB6 /* Debug */,
+				82D4131F1C3445C8008C6DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D4132C1C3445D5008C6DB6 /* Build configuration list for PBXNativeTarget "CustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4132D1C3445D5008C6DB6 /* Debug */,
+				82D4132E1C3445D5008C6DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D412F51C3445C8008C6DB6 /* Project object */;
+}
