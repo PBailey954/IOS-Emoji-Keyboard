@@ -18,7 +18,6 @@ class KeyboardViewController: UIInputViewController, UIScrollViewDelegate {
     var buttonRow2: CGFloat!
     var buttonRow3: CGFloat!
     var buttonRow4: CGFloat!
-    var totalEmotes = 199
     var totalRows = 4
     var amountOfSpace: CGFloat!
     var portrait = true
@@ -365,7 +364,7 @@ class KeyboardViewController: UIInputViewController, UIScrollViewDelegate {
             let enumerator:NSDirectoryEnumerator = fileManager.enumeratorAtPath(databasePath)!
             
             if (i > 0 && i < 5) {
-                xValue = xValue + 75.0
+                xValue = xValue + 70.0
             }
             
             while let element = enumerator.nextObject() {
@@ -385,14 +384,10 @@ class KeyboardViewController: UIInputViewController, UIScrollViewDelegate {
                     let photoName = (element as! String)
                     createButtonWithTitle(photoName, folder: self.folders[i], xValue: xValue, yValue: self.buttonRow4)
                     index = 1
-                    if (enumerator.nextObject() != nil) {
-                        xValue = xValue + 50.0
-                    }
+                    xValue = xValue + 50.0
                 } else {
                     index = 1
-                    if (enumerator.nextObject() != nil) {
-                        xValue = xValue + 50.0
-                    }
+                    xValue = xValue + 50.0
                 }
             }
             
